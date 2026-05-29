@@ -1,0 +1,22 @@
+# TikTok to YouTube Channel Pairs
+
+channels:
+  - id: channel_6
+    tiktok_username: "mogumogu_lily"
+    youtube_channel_name: "mogumogu_lily"
+    google_credentials_file: "credentials/channel_6_client_secret.json"
+    oauth_token_file: "tokens/channel_6_token.json"
+    videos_per_day: 2
+    description_footer: ""
+    default_tags:
+      - mogumogu_lily
+      - japanese
+      - viral
+    youtube_category_id: "22"
+    enabled: true
+    max_retry_days: 7
+    shorts_max_seconds: 180
+    upload_mode: short_only
+    slot_publish_times_utc:
+      1: "09:00"   # PUBLIC at 2 PM PKT (UTC+5)
+      2: "10:00"   # PUBLIC at 3 PM PKT (UTC+5)
