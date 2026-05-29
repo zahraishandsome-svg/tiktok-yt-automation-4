@@ -3,7 +3,7 @@
 channels:
   - id: channel_6
     tiktok_username: "mogumogu_lily"
-    youtube_channel_name: "mogumogu_lily"
+    youtube_channel_name: "りまとりりい 😺🍭"
     google_credentials_file: "credentials/channel_6_client_secret.json"
     oauth_token_file: "tokens/channel_6_token.json"
     videos_per_day: 2
