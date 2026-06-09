@@ -1,0 +1,4 @@
+
+# Never commit live OAuth secrets (CI materializes them from GitHub secrets)
+tokens/*.json
+credentials/*.json

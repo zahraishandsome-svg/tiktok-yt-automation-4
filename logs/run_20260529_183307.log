@@ -1,0 +1,22 @@
+2026-05-29 18:33:07,021 [INFO    ] run: ============================================================
+2026-05-29 18:33:07,021 [INFO    ] run: TikTok→YouTube Automation | Slot 2 | dry_run=False
+2026-05-29 18:33:07,021 [INFO    ] run: ============================================================
+2026-05-29 18:33:07,027 [INFO    ] src.orchestrator: Running slot 2 | channels=1 | dry_run=False
+2026-05-29 18:33:07,027 [INFO    ] src.orchestrator: ── Starting channel: channel_6 (@mogumogu_lily) ──
+2026-05-29 18:33:07,045 [INFO    ] src.tiktok_downloader: Fetching video list from TikTok: @mogumogu_lily
+2026-05-29 18:33:12,611 [INFO    ] src.tiktok_downloader: Found 50 videos on @mogumogu_lily profile
+2026-05-29 18:33:12,620 [INFO    ] src.channel_runner: [channel_6] Selected video: 7643753827576876309 | 'このマシュマロほんと美味しい🌈💕チョコミントはパパが全部食べましたwww #Pongsindang #PR@Pongsindang（퐁신당）'
+2026-05-29 18:33:12,620 [INFO    ] src.tiktok_downloader: Downloading TikTok video 7643753827576876309
+2026-05-29 18:33:47,395 [INFO    ] src.tiktok_downloader: Downloaded: 7643753827576876309.mp4 (19.8 MB)
+2026-05-29 18:33:47,407 [INFO    ] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-05-29 18:33:47,407 [INFO    ] src.channel_runner: [channel_6] Slot 2: 10:00Z already passed today (GitHub cron delay) — publishing immediately
+2026-05-29 18:33:47,407 [INFO    ] src.youtube_uploader: Preparing upload | title='このマシュマロほんと美味しい🌈💕チョコミントはパパが全部食べましたwww #Pongsindang #PR@Pongsindang（퐁신당）' | short=False | tags=['mogumogu_lily', 'japanese', 'viral'] | publish_at=immediate | dry_run=False
+2026-05-29 18:34:08,673 [INFO    ] src.youtube_uploader: Upload progress: 25%
+2026-05-29 18:34:31,135 [INFO    ] src.youtube_uploader: Upload progress: 50%
+2026-05-29 18:34:54,015 [INFO    ] src.youtube_uploader: Upload progress: 75%
+2026-05-29 18:35:13,335 [INFO    ] src.youtube_uploader: Upload complete: https://www.youtube.com/watch?v=4BpkOWgIJN4
+2026-05-29 18:35:13,352 [INFO    ] src.channel_runner: [channel_6] Uploaded: https://www.youtube.com/watch?v=4BpkOWgIJN4
+2026-05-29 18:35:13,352 [INFO    ] src.orchestrator: [channel_6] SUCCESS: https://www.youtube.com/watch?v=4BpkOWgIJN4
+2026-05-29 18:35:13,352 [INFO    ] src.orchestrator: ── Summary: 1 success | 0 failed | 0 skipped | 0 no_content ──
+2026-05-29 18:35:13,352 [INFO    ] src.orchestrator:   ✓ channel_6 → https://www.youtube.com/watch?v=4BpkOWgIJN4
+2026-05-29 18:35:13,352 [INFO    ] run: Log saved to: logs\run_20260529_183307.log

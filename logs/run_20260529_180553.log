@@ -1,0 +1,21 @@
+2026-05-29 18:05:53,125 [INFO    ] run: ============================================================
+2026-05-29 18:05:53,125 [INFO    ] run: TikTok→YouTube Automation | Slot 1 | dry_run=True
+2026-05-29 18:05:53,125 [INFO    ] run: ============================================================
+2026-05-29 18:05:53,151 [INFO    ] src.orchestrator: Running slot 1 | channels=1 | dry_run=True
+2026-05-29 18:05:53,152 [INFO    ] src.orchestrator: ── Starting channel: channel_6 (@mogumogu_lily) ──
+2026-05-29 18:05:53,171 [INFO    ] src.tiktok_downloader: Fetching video list from TikTok: @mogumogu_lily
+2026-05-29 18:05:58,573 [INFO    ] src.tiktok_downloader: Found 50 videos on @mogumogu_lily profile
+2026-05-29 18:05:58,585 [INFO    ] src.channel_runner: [channel_6] Selected video: 7644494318677445908 | '梅好きはスリコ急げ💨💕梅ようかん最中がお気に入りみたいですw#モッパン #mukbang #ママと娘'
+2026-05-29 18:05:58,585 [INFO    ] src.channel_runner: [DRY RUN] Skipping download for 7644494318677445908
+2026-05-29 18:05:58,585 [INFO    ] src.youtube_uploader: No valid token found — starting OAuth flow (browser will open)
+2026-05-29 18:05:58,697 [INFO    ] google_auth_oauthlib.flow: Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=938648083235-nghoki0t0svr45ltf12vsh8adgmtclm1.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A55642%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload&state=7pZ5IMFCCNnIpm1p2QGdqbqrEm8hWt&code_challenge=rtKA33BXml7-8xZhalgci1SVtZoIop-I0rQgxCbtjFc&code_challenge_method=S256&access_type=offline
+2026-05-29 18:06:45,459 [INFO    ] google_auth_oauthlib.flow: "GET /?state=7pZ5IMFCCNnIpm1p2QGdqbqrEm8hWt&iss=https://accounts.google.com&code=4/0AeoWuM-yKQKgU5FbUYl2YfOgPzfzemxJ_d2tOgGJx5VAk3cLT4E6KY0cJjrFL-EjS9oofw&scope=https://www.googleapis.com/auth/youtube.upload HTTP/1.1" 200 65
+2026-05-29 18:06:46,434 [INFO    ] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-05-29 18:06:46,439 [INFO    ] src.channel_runner: [channel_6] Slot 1: 09:00Z already passed today (GitHub cron delay) — publishing immediately
+2026-05-29 18:06:46,439 [INFO    ] src.youtube_uploader: Preparing upload | title='梅好きはスリコ急げ💨💕梅ようかん最中がお気に入りみたいですw#モッパン #mukbang #ママと娘' | short=False | tags=['mogumogu_lily', 'japanese', 'viral'] | publish_at=immediate | dry_run=True
+2026-05-29 18:06:46,439 [INFO    ] src.youtube_uploader: [DRY RUN] Would upload: 7644494318677445908.mp4
+2026-05-29 18:06:46,450 [INFO    ] src.channel_runner: [channel_6] [DRY RUN] Would have uploaded: https://www.youtube.com/watch?v=DRY_RUN_VIDEO_ID
+2026-05-29 18:06:46,450 [INFO    ] src.orchestrator: [channel_6] SUCCESS: https://www.youtube.com/watch?v=DRY_RUN_VIDEO_ID
+2026-05-29 18:06:46,450 [INFO    ] src.orchestrator: ── Summary: 1 success | 0 failed | 0 skipped | 0 no_content ──
+2026-05-29 18:06:46,450 [INFO    ] src.orchestrator:   ✓ channel_6 → https://www.youtube.com/watch?v=DRY_RUN_VIDEO_ID
+2026-05-29 18:06:46,450 [INFO    ] run: Log saved to: logs\run_20260529_180553.log

@@ -1,0 +1,21 @@
+2026-05-29 18:31:56,592 [INFO    ] run: ============================================================
+2026-05-29 18:31:56,592 [INFO    ] run: TikTok→YouTube Automation | Slot 1 | dry_run=False
+2026-05-29 18:31:56,592 [INFO    ] run: ============================================================
+2026-05-29 18:31:56,597 [INFO    ] src.orchestrator: Running slot 1 | channels=1 | dry_run=False
+2026-05-29 18:31:56,597 [INFO    ] src.orchestrator: ── Starting channel: channel_6 (@mogumogu_lily) ──
+2026-05-29 18:31:56,613 [INFO    ] src.tiktok_downloader: Fetching video list from TikTok: @mogumogu_lily
+2026-05-29 18:32:01,784 [INFO    ] src.tiktok_downloader: Found 50 videos on @mogumogu_lily profile
+2026-05-29 18:32:01,789 [INFO    ] src.channel_runner: [channel_6] Selected video: 7644494318677445908 | '梅好きはスリコ急げ💨💕梅ようかん最中がお気に入りみたいですw#モッパン #mukbang #ママと娘'
+2026-05-29 18:32:01,794 [INFO    ] src.tiktok_downloader: Downloading TikTok video 7644494318677445908
+2026-05-29 18:32:08,438 [INFO    ] src.tiktok_downloader: Downloaded: 7644494318677445908.mp4 (13.5 MB)
+2026-05-29 18:32:08,445 [INFO    ] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2026-05-29 18:32:08,446 [INFO    ] src.channel_runner: [channel_6] Slot 1: 09:00Z already passed today (GitHub cron delay) — publishing immediately
+2026-05-29 18:32:08,446 [INFO    ] src.youtube_uploader: Preparing upload | title='梅好きはスリコ急げ💨💕梅ようかん最中がお気に入りみたいですw#モッパン #mukbang #ママと娘' | short=False | tags=['mogumogu_lily', 'japanese', 'viral'] | publish_at=immediate | dry_run=False
+2026-05-29 18:32:22,505 [INFO    ] src.youtube_uploader: Upload progress: 37%
+2026-05-29 18:32:39,492 [INFO    ] src.youtube_uploader: Upload progress: 74%
+2026-05-29 18:32:59,210 [INFO    ] src.youtube_uploader: Upload complete: https://www.youtube.com/watch?v=mD9mwIORdCs
+2026-05-29 18:32:59,230 [INFO    ] src.channel_runner: [channel_6] Uploaded: https://www.youtube.com/watch?v=mD9mwIORdCs
+2026-05-29 18:32:59,230 [INFO    ] src.orchestrator: [channel_6] SUCCESS: https://www.youtube.com/watch?v=mD9mwIORdCs
+2026-05-29 18:32:59,230 [INFO    ] src.orchestrator: ── Summary: 1 success | 0 failed | 0 skipped | 0 no_content ──
+2026-05-29 18:32:59,230 [INFO    ] src.orchestrator:   ✓ channel_6 → https://www.youtube.com/watch?v=mD9mwIORdCs
+2026-05-29 18:32:59,230 [INFO    ] run: Log saved to: logs\run_20260529_183156.log
