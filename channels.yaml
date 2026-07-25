@@ -1,19 +1,25 @@
 # TikTok to YouTube Channel Pairs
+#
+# EMPTY SLOT — ch6 (@mogumogu_lily) decommissioned 2026-07-26 (poor performance).
+# Cron-job.org jobs deleted. To onboard a NEW channel into this slot:
+#   1. Set tiktok_username + youtube_channel_name below
+#   2. Re-generate OAuth token (onboard_channel.py) if using a different YT channel
+#   3. Set enabled: true
+#   4. Re-create the cron-job.org jobs (slot1, slot2, daily-summary)
 
 channels:
   - id: channel_6
-    tiktok_username: "mogumogu_lily"
-    youtube_channel_name: "りまとりりい 😺🍭"
+    tiktok_username: ""
+    youtube_channel_name: ""
     google_credentials_file: "credentials/channel_6_client_secret.json"
     oauth_token_file: "tokens/channel_6_token.json"
     videos_per_day: 2
     description_footer: ""
     default_tags:
-      - mogumogu_lily
-      - japanese
       - viral
+      - trending
     youtube_category_id: "22"
-    enabled: true
+    enabled: false
     max_retry_days: 7
     shorts_max_seconds: 180
     upload_mode: short_only
